@@ -219,5 +219,23 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# ===== R =====
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# ===== 通用补充（投稿代码常用）=====
+# 密钥与本地配置
+.env
+.env.*
+!.env.example
+
+# 数据与大型结果文件（按需保留）
+data/raw/
+outputs/
+*.log
+
+
 # Streamlit
 .streamlit/secrets.toml
